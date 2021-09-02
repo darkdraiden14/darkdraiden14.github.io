@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle,yellow,orange,white,aqua);
+    
+}
+.navbar{
+    color:aqua;
+    height:10%
+}
+.navbar .nav-brand{
+    font-size: 28px;
+    margin-left:5%;
+    display: inline-block;
+    margin-top:1%;
+}
+.navbar .nav-links{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float:right;
+}
+.navbar .nav-links .nav-items{
+    float:left;
+    font-size:20px;
+    display:inline-block;
+    margin: 0;
+    padding : 4%;
+    height:33%;
+    margin-left:10px
+}
+.nav-items:hover{
+    background-color: aqua;
+    color: black;
+    font-size:22px;
+}
